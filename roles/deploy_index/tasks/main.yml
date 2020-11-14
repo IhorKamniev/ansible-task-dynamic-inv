@@ -1,0 +1,11 @@
+- name: deploy index.html
+  sudo: yes
+  copy:
+    src: files/index.html
+    dest: /var/www/html/index.html
+        
+- name: deploy env.txt
+  sudo: yes
+  template:
+    src: files/env.txt
+    dest: /var/www/html/env.txt 

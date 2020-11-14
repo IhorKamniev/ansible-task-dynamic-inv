@@ -1,0 +1,10 @@
+- name: wait for SSH
+  wait_for_connection:
+    delay: 5
+    timeout: 90
+        
+- name: install httpd
+  yum:
+    name: httpd
+    state: latest
+  become: yes

@@ -1,0 +1,8 @@
+- hosts: tag_name_uat
+  remote_user: ec2-user
+  vars_files:
+  - group_vars/tag_name_uat
+  roles:
+    - install_apache
+    - start_services
+    - deploy_index
