@@ -1,2 +1,2 @@
 env: UAT
-ansible_ssh_private_key_file: /home/ansible/KPair.pem
+ansible_ssh_private_key_file: <PATH_TO_YOUR_PRIVATE_KEY_HERE>
