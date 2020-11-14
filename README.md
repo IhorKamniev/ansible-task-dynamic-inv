@@ -3,7 +3,7 @@ Using dynamic inventory based on tags instead of hosts file
 
 Preconditions:
     
-    1. Provision instances with tag "name" and value "uat"
+    1. Provision instances with tag "name" and its value "uat"
 
 Setup:
 
